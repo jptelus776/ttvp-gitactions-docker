@@ -1,0 +1,110 @@
+{
+  "profiles": {
+    "Entity-Info": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "entity-info-ms/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_MAIN_HOST": "localhost",
+        "MY_MAIN_USER": "",
+        "MY_MAIN_PASSWORD": "",
+        "MY_MAIN_PORT": "3306",
+        "MY_NPVR_HOST": "localhost",
+        "MY_NPVR_USER": "",
+        "MY_NPVR_PASSWORD": "",
+        "MY_NPVR_PORT": "4306",
+        "MY_LPVR_HOST": "localhost",
+        "MY_LPVR_USER": "",
+        "MY_LPVR_PASSWORD": "",
+        "MY_LPVR_PORT": "3306",
+        "MY_USE_SSL": "False",
+        "MY_CERT_PATH": "",
+        "CA_CERT_PATH": "",
+        "CA_HOST": "localhost",
+        "CA_PORT": "9042",
+        "CA_USER": "",
+        "CA_PASSWORD": "",
+        "CA_USE_SSL": "True",
+        "ES_HOST": "avs-es-service-001",
+        "ES_PORT": "9200",
+        "ES_SCHEME": "https"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5000"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_MAIN_HOST": "avs-be-service-01",
+        "MY_MAIN_USER": "",
+        "MY_MAIN_PASSWORD": "",
+        "MY_MAIN_PORT": "3306",
+        "MY_NPVR_HOST": "avs-npvrbe-db-service-01",
+        "MY_NPVR_USER": "",
+        "MY_NPVR_PASSWORD": "",
+        "MY_NPVR_PORT": "3307",
+        "MY_LPVR_HOST": "avs-lpvr-db-service-01",
+        "MY_LPVR_USER": "",
+        "MY_LPVR_PASSWORD": "",
+        "MY_LPVR_PORT": "3306",
+        "MY_USE_SSL": "False",
+        "MY_CERT_PATH": "",
+        "CA_CERT_PATH": "",
+        "CA_HOST": "avs-bookmark-db-service-01",
+        "CA_PORT": "9042",
+        "CA_USER": "",
+        "CA_PASSWORD": "",
+        "CA_USE_SSL": "True",
+        "ES_HOST": "avs-es-service-001",
+        "ES_PORT": "9200",
+        "ES_SCHEME": "https"
+      },
+      "applicationUrl": "entity-info-ms"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/entity-info-ms/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MY_MAIN_HOST": "avs-be-service-01",
+        "MY_MAIN_USER": "",
+        "MY_MAIN_PASSWORD": "",
+        "MY_MAIN_PORT": "3306",
+        "MY_NPVR_HOST": "avs-npvrbe-db-service-01",
+        "MY_NPVR_USER": "",
+        "MY_NPVR_PASSWORD": "",
+        "MY_NPVR_PORT": "3307",
+        "MY_LPVR_HOST": "avs-lpvr-db-service-01",
+        "MY_LPVR_USER": "",
+        "MY_LPVR_PASSWORD": "",
+        "MY_LPVR_PORT": "3306",
+        "MY_USE_SSL": "False",
+        "MY_CERT_PATH": "",
+        "CA_CERT_PATH": "",
+        "CA_HOST": "avs-bookmark-db-service-01",
+        "CA_PORT": "9042",
+        "CA_USER": "",
+        "CA_PASSWORD": "",
+        "CA_USE_SSL": "True",
+        "ES_HOST": "avs-es-service-001",
+        "ES_PORT": "9200",
+        "ES_SCHEME": "https"
+      },
+      "publishAllPorts": true,
+      "useSSL": false
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57835/",
+      "sslPort": 44370
+    }
+  }
+}

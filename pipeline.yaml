@@ -1,0 +1,3 @@
+service_name: entity-info-ms
+helm_repo_name: entity-info-ms-helm
+base_version: T_7.0.0
