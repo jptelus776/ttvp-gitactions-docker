@@ -1,0 +1,10 @@
+name: tester incluster runners
+
+on:
+  workflow_dispatch
+
+jobs:
+  build: 
+    runs-on: poc_runner # label of the runner
+    steps: 
+      - run: echo "Hello build!"
